@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* overflow-x: hidden; */
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(https://mahdisohaily.github.io/Leaderboard/images/pattern-hills.svg), url(https://mahdisohaily.github.io/Leaderboard/images/bg-stars.svg), hsl(235deg 20.15% 21.09%);
+    ;
+    background-repeat: no-repeat;
+    background-size: contain,cover;
+    background-position: bottom;
+    color: white;
+    height: 100vh;
+}
+.app-container {
+    text-align: center;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    width: fit-content;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgba(43,45,65, 0.4);
+    /* height: 200px; */
+    margin: 0 10px;
+}
+.app-container h1{
+    margin-bottom: 40px;
+}
+
+.jokebtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    background-color: rgba(120, 122, 138, 0.4);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: .3s linear;
+}
+.jokebtn:hover{
+background-color: gray;
+color: black;
+}
+
+#jokeDisplay {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
